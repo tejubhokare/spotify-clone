@@ -25,7 +25,7 @@ const Modal: React.FC<ModalProps> = ({
 
     <Dialog.Portal>
 
-    </Dialog.Portal>
+
         <Dialog.Overlay
         className="
         bg-neutral-900/90
@@ -98,6 +98,7 @@ const Modal: React.FC<ModalProps> = ({
             </button>
         </Dialog.Close>
     </Dialog.Content>
+    </Dialog.Portal>
     </Dialog.Root>
   )
 }

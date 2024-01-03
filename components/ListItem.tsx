@@ -45,8 +45,8 @@ const  ListItem: React.FC<ListItemProps> = ({
         ">
             <Image 
             className="object-cover"
-            fill
             src={image}
+            fill
             alt="like"
             />
         </div>
