@@ -1,5 +1,40 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## More about functionality
+
+This is spotify clone application built using NextJs 13.4, React, Stripe, Supabase, PostgreSQL, Tailwind.
+
+Key fetaures of this app are as below: 
+
+Key Features:
+
+Completed features:
+
+- Song upload
+- Stripe integration
+- Supabase and PostgreSQL Database handling
+- Tailwind design for sleek UI
+- Tailwind animations and transition effects
+- Full responsiveness for all devices
+- Credential authentication with Supabase
+- Github authentication integration
+- File and image upload using Supabase storage
+- Client form validation and handling using react-hook-form
+- Server error handling with react-toast
+- Play song audio
+- Favorites system
+- Playlists / Liked songs system
+- Advanced Player component
+
+Features  Needs to be developed in future: 
+
+- Stripe recurring payment integration
+- How to write POST, GET, and DELETE routes in route handlers (app/api)
+- How to fetch data in server React components by directly accessing the database (WITHOUT API! like Magic!)
+- Handling relations between Server and Child components in a real-time environment
+- Cancelling Stripe subscriptions
+
+
 ## Getting Started
 
 First, run the development server:
