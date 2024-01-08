@@ -68,7 +68,7 @@ const PlayerContent:React.FC<PlayerContetProps> = ({
                 setIsPlaying(false);
                 onPlayNext();
             },
-            oppause: () => setIsPlaying(false),
+            onpause: () => setIsPlaying(false),
             format: ['mp3']
         }
     );
